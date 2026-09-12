@@ -1,7 +1,6 @@
-import ModalRegister from "../components/ModalRegister";
 import UserRegisterCard from "../components/UserRegisterCard";
 import type { Registrant } from "../libs/Registrant";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function DashboardPage() {
   const STORAGE_KEY = "lab14.Register";
