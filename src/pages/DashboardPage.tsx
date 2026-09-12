@@ -14,8 +14,8 @@ export default function DashboardPage() {
   }
 }
 
-  const [registrations, setRegistrations] = useState<Registrant[]>(loadTasks);
-
+  const [registrations] = useState<Registrant[]>(loadTasks);
+  
   return (
 
     <div className="container mt-4">
